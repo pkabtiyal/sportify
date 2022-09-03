@@ -1,0 +1,23 @@
+.spanText{
+    color: red;
+}
+
+.widthClass{
+    width: 60%;
+}
+
+.divDisplay{
+    display: inline-block;
+}
+
+.rightDisplay{
+    float: right;
+}
+
+.backgroundClassPricing{
+    background-image: url("../../assets/images/mem2.webp");
+    min-height: 100vh;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+

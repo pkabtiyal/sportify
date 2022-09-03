@@ -1,0 +1,13 @@
+/* Author: Aravind Jayanthi (B00868943)
+   Email: ar687531@dal.ca */
+.Footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Pagination {
+    align-items: center;
+    align-content: center;
+}

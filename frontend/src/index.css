@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root header + div {
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.img-responsive{
+  max-width: 100%;
+  height:auto;
+}
+
+.logo-img{
+  width:130px;
+  min-width: 6.6rem;
+  display: flex;
+  margin: 0 auto;
+}
+
+/* login page css */
+#loginPage{
+  height:100vh;
+}
+
+
+
+.loginSide{
+  height: 100%;
+  background:linear-gradient(297deg, rgba(50,109,217,0.4) 35%, rgba(0,0,0,0.6) 100%), url("assets/images/loginBack.jpg");
+  /*background:linear-gradient(130deg, rgba(238,53,42,0.45) 20%, rgba(2,0,36,0.45) 60%, rgba(255,255,255,0.25) 81%), url("assets/images/loginBack.jpg");*/
+  /*background: rgba(238, 53, 42,0.5);*/
+  background-size: cover;
+  background-position: center;
+}
+
+.loginSide1{
+  height: 100%;
+  background:linear-gradient(297deg, rgba(50,109,217,0.4) 35%, rgba(0,0,0,0.6) 100%), url("https://img.freepik.com/free-photo/3d-rendering-modern-loft-gym-fitness_105762-2020.jpg?t=st=1655365941~exp=1655366541~hmac=9a211fdea2f4390c59d12f64d3eab6ce199a01b33cf8ed77cbc252a33d1a3791&w=740");
+  /*background:linear-gradient(130deg, rgba(238,53,42,0.45) 20%, rgba(2,0,36,0.45) 60%, rgba(255,255,255,0.25) 81%), url("assets/images/loginBack.jpg");*/
+  /*background: rgba(238, 53, 42,0.5);*/
+  background-size: cover;
+  background-position: center;
+}
+
+.homeback{
+  min-height:100vh;
+  background:linear-gradient(297deg, rgba(50,109,217,0.4) 35%, rgba(0,0,0,0.6) 100%), url("../public/Homeback.jpg");
+  /*background:linear-gradient(130deg, rgba(238,53,42,0.45) 20%, rgba(2,0,36,0.45) 60%, rgba(255,255,255,0.25) 81%), url("assets/images/loginBack.jpg");*/
+  /*background: rgba(238, 53, 42,0.5);*/
+  background-size: cover;
+  background-position: center;
+}
+
+.loginSideText{
+  float: left;
+  margin-left:20%;
+  margin-top:25%;
+}
+
+.bg-gray{
+  background: #E5E6E8;
+}
+
+/* Profile page */
+.elevation-4{
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 5px 8px 0px rgb(0 0 0 / 14%), 0px 1px 14px 0px rgb(0 0 0 / 12%);
+}
+
+.profile-img{
+  display: flex;
+  width: 200px!important;
+  height: 200px!important;
+  max-width:100%;
+  margin:0 auto;
+}
+
+/* some common use css */
+.flex-center{
+  display: flex!important;
+  margin: 0 auto!important;
+}
+
+.hr-fancy1{
+  width:20%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: #a2bef1;
+}
+
+.bg-dark{
+  background: #152d59;
+}
+
+.bg-medium{
+  background: #234c99;
+}
+
+.bg-main{
+  background: #326dd9;
+}
+
+.bg-light{
+  background: #a2bef1;
+}
+
+.bg-lighter{
+  background: #f5eeee;
+}
+
+.sideBox{
+  padding:100px;
+}
+
+.img-box{
+  padding:100px;
+}
+

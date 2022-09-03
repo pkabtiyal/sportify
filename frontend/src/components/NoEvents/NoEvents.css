@@ -1,0 +1,13 @@
+/* Author: Aravind Jayanthi (B00868943)
+   Email: ar687531@dal.ca */
+.Image {
+    object-fit: contain;
+    margin: '0 auto';
+    width: 50%;
+}
+
+.Ref:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

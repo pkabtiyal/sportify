@@ -1,0 +1,5 @@
+export const primaryColor: string = '#326DD9'
+export const seondaryColor: string = '#152D59'
+export const skyBlueThemeColor: string = '#234C99'
+export const veryLightBlueThemeColor: string = '#A2BEF1'
+export const whiteThemeColor: string = '#F5EEEE'

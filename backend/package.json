@@ -1,0 +1,30 @@
+{
+  "name": "sportify-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.cs.dal.ca/kabtiyal/5709-g10-sportify-backend.git"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "*",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "*",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.19",
+    "react-redux": "^8.0.2",
+    "stripe": "^9.13.0",
+    "uuid": "^8.3.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

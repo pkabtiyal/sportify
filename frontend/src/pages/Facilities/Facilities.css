@@ -1,0 +1,27 @@
+/* Author: Aravind Jayanthi (B00868943)
+   Email: ar687531@dal.ca */
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* .Filters{
+    display: block;
+    justify-content: space-between;
+} */
+
+/* @media (min-width: 601) {
+    .Filters {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 600) {
+    .Filters {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        justify-items: center;
+    }
+} */

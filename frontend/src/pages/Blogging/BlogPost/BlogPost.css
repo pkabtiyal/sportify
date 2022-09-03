@@ -1,0 +1,59 @@
+.blogPost{
+    width: 70%;
+    background:white;
+}
+
+.blogPostContainer{
+    width:100%;
+}
+
+.blogHeader{
+    text-align:center;
+}
+.blogCategory{
+    display:block;
+    font-size:14px;
+    padding: 10px;
+    
+}
+
+.postTitle{
+    letter-spacing:0.5px;
+    text-transform:capitalize;
+    font-size:30px;
+    margin:0;
+    font-weight:400;
+    padding: 30px 0;
+}
+
+.postedBy{
+    font-size:15px;
+    font-style:italic;
+    padding:10px 0;
+    display:block;
+
+}
+
+.postImageContainer{
+    width:100%;
+    height:70%;
+    padding: 0 20px;
+    box-sizing:border-box;
+    display: block;
+    
+   
+}
+.postImageContainer img{
+    max-width:70%;
+    max-height:80%;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   /* width: 50%; */
+}
+
+.postContents{
+    padding: 0 50px;
+    font-size: large;
+}
+

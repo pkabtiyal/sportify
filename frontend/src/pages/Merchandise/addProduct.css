@@ -1,0 +1,16 @@
+   .ImagePreview{
+    object-fit: contain;
+    margin: '0 auto';
+    width: 100%;
+    height: inherit;
+    max-width: 500px;
+}
+
+.ImageWrapper{
+    position: relative;
+}
+
+.ErrorText {
+    color: red;
+    font-size: 0.75rem;
+}
