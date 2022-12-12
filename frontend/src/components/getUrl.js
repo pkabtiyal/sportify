@@ -1,4 +1,4 @@
 export function getBackendUrl() {
-    return 'https://sportify-backend-prd.herokuapp.com';
+    return 'https://sportify-services-v2.onrender.com';
     // return 'http://localhost:5000';
 }
